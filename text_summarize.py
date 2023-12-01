@@ -27,7 +27,8 @@ def get_summary(text, summarizer, num_sentences, language="english"):
     elif detected_language == "en":
         language = "english"
     else:
-        st.warning("Langue détectée non prise en charge. Utilisation par défaut de la langue anglaise.")
+        pass
+        #st.warning("Langue détectée non prise en charge. Utilisation par défaut de la langue anglaise.")
 
     # Sélection du modèle de résumé
     if selected_summarizer == "TextRank":
