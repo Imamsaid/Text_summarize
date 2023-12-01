@@ -8,6 +8,7 @@ from langdetect import detect
 from sumy.summarizers.text_rank import TextRankSummarizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
+import util 
 
 # Charger les données nécessaires pour nltk (si ce n'est pas déjà fait)
 nltk.download('punkt')
