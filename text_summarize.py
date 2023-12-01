@@ -9,7 +9,12 @@ from sumy.summarizers.text_rank import TextRankSummarizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
 import util 
-
+# Charger la fonction generate_summary
+from util import set_background
+import streamlit as st
+from keras.models import load_model
+from PIL import Image
+set_background('./images/image.jpeg')
 # Charger les données nécessaires pour nltk (si ce n'est pas déjà fait)
 nltk.download('punkt')
 nltk.download('stopwords')
