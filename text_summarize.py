@@ -13,7 +13,7 @@ import util
 from util import set_background
 import streamlit as st
 from PIL import Image
-#set_background('./images/image1.jpeg')
+set_background('./images/image4.jpg')
 #Charger les données nécessaires pour nltk (si ce n'est pas déjà fait)
 nltk.download('punkt')
 nltk.download('stopwords')
